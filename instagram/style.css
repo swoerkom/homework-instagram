@@ -1,0 +1,104 @@
+body {
+  font-family: Helvetica;
+  font-size: 17px;
+  color: #999;
+  margin: 50px;
+  text-align: center;
+
+}
+
+main {
+  display: inline-block;
+  margin: auto;
+}
+
+input[type="text"], input[type="button"] {
+  font-size: 11px;
+}
+.image {
+float: left;
+margin-top: 50px;
+}
+
+.content {
+  float: right;
+  overflow: auto;
+  max-width: 350px;
+}
+
+.btn {
+  position:relative;
+  background: #3897f0;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 80%;
+  height: 30px;
+  margin: 10px;
+}
+
+.sign-up, .account {
+  border-radius: 1px;
+  border: 1px solid #e6e6e6;
+  margin: 5px;
+  padding: 10px;
+  background: #fff;
+  color: #999;
+}
+
+.account p a:link, .account, .app {
+  text-decoration: none;
+  color: #3897f0;
+  font-size: 14px;
+}
+
+
+.navbar, .navbar a:link {
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #003569;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.app, .account {
+  color: black;
+}
+
+.app p {
+  padding: 15px;
+
+}
+span {
+  color: #999;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.textbox {
+  width: 80%;
+  height: 30px;
+  color: grey;
+  border: 1px solid #e6e6e6;
+  padding-left: 10px;
+}
+
+p {
+  padding: 3px;
+  margin: 6px;
+}
+
+hr {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  border: solid #e6e6e6 1px;
+}
